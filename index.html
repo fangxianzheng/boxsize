@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.js"></script>
+    <style>
+        .test{
+            box-sizing:border-box;
+            background-color:#afa;
+            width:300px;
+            height:200px;
+            border:5px solid #faa;
+            padding:10px;
+            margin:20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+<script src="boxsize.js"></script>
+<script>
+
+console.log(boxsize('.test').outerHeight(true))
+
+console.log($('.test').outerHeight(true))
+
+</script>
+</body>
+</html>
