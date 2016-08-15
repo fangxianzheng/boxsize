@@ -2,7 +2,7 @@
 boxsize 获取隐藏元素的宽高，尺寸
 
 ##说明
-    jQuery中的width(),height(),innerWidth(),outerWidth(),outerWidth(true)等方法，都可以计算隐藏元素（display:none)的尺寸，
+jQuery中的width(),height(),innerWidth(),outerWidth(),outerWidth(true)等方法，都可以计算隐藏元素（display:none)的尺寸，
 非常神奇。而zepto则不行，实际上源生的JS也不行的，jQuery用了特殊的方式。
     由于经常碰到计算隐藏元素的尺寸的问题，而项目又不打算引入jQuery，所以操作非常麻烦，于是，这个小型库诞生了。
     这个库参考jQuery写出来的。
