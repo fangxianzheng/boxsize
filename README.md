@@ -23,7 +23,7 @@ boxsize(ele)
 
 |       方法       |   说明   |        补充     |
 |------------------|----------|--------|----------------|
-|    width()            | 和jQuery类似 | 实际就是querySelectAll 的可选值 |
+|    width()            | 和jQuery类似 | 返回值是数组或数值 |
 |    height()           | 和jQuery类似 | 返回值是数组或数值 |
 |    innerWidth()       | 和jQuery类似 | 返回值是数组或数值 |
 |    innerHeight()      | 和jQuery类似 | 返回值是数组或数值 |
