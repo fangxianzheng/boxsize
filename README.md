@@ -22,14 +22,13 @@ boxsize(ele)
 ## API
 
 |       方法       |   说明   |        补充     |
-|------------------|----------|--------|----------------|
+|------------------|----------|--------|
 |    width()            | 和jQuery类似 | 返回值是数组或数值 |
 |    height()           | 和jQuery类似 | 返回值是数组或数值 |
 |    innerWidth()       | 和jQuery类似 | 返回值是数组或数值 |
 |    innerHeight()      | 和jQuery类似 | 返回值是数组或数值 |
 |    outerWidth(true)   | 和jQuery类似 | 返回值是数组或数值；true参数可选类似jQuery |
 |    outerHeight(true)  | 和jQuery类似 | 返回值是数组或数值；true参数可选类似jQuery|
-
 
 注意：当 `boxsize(ele)`选中的元素是单个的话，调用方法返回的值是数值；当选中的元素是多个如：`boxsize('.test').width()`,当DOM中有多个`.test`时，
 返回的是一个数组。不太明白可以自己测试。
